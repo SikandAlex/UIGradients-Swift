@@ -46,6 +46,7 @@ Go to [uigradients.com](uigradients.com), find a gradient you love, and remember
 ## UIKit
 ```swift
 import UIGradients_Swift
+
 // Call addGradient on any UIView
 self.view.addGradient(direction: .topToBottom, named: "Sunset")
 ```
@@ -53,11 +54,12 @@ self.view.addGradient(direction: .topToBottom, named: "Sunset")
 ## SwiftUI
 ```swift
 import UIGradients_Swift
+
 // Create a gradient with the colors from https://uigradients.com/#Magic
 Gradient(named: "Magic")
 
 // Create a linear gradient background with the colors from https://uigradients.com/#PurpleParadise
-.background(LinearGradient(gradient: Gradient(named: "Purple Paradise"), startPoint: .top, endPoint: .bottom))
+.background(LinearGradient(gradient: Gradient(named: "Purple Paradise")!, startPoint: .top, endPoint: .bottom))
 ```
 
 # Available Directions
