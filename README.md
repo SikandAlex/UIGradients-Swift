@@ -74,7 +74,7 @@ Gradient(named: "Magic")
 * bottomLeftToTopRight
 * bottomRightToTopLeft
 
-## Author 👑 and Acknowledgements 
+## Author and Acknowledgements 
 
 Created by **Alex Sikand** [Find me on LinkedIn](https://www.linkedin.com/in/alexsikand/)
 
