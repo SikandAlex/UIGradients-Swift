@@ -30,29 +30,29 @@ The great people over at [UI Gradients](uigradients.com) have created some beaut
 
 This library saves you time by allowing you to create these same gradients in Swift just by referring to their name on the site.
 
-# Installation 
+# Installation with Swift Package Manager
+
+File => Swift Packages => Add Package Dependency => https://github.com/SikandAlex/UIGradients-Swift.git
 
 ## UIKit
-```ruby
-pod 'UIGradients-Swift'
-```
+Use 'master' branch
 
 ## SwiftUI
-```ruby
-pod 'UIGradients-Swift', :git => 'https://github.com/SikandAlex/UIGradients-Swift.git', :branch => 'SwiftUI'
-```
+Use 'SwiftUI' branch
 
 # Usage
 Go to [uigradients.com](uigradients.com), find a gradient you love, and remember the name!
 
 ## UIKit
 ```swift
+import UIGradients_Swift
 // Call addGradient on any UIView
 self.view.addGradient(direction: .topToBottom, named: "Sunset")
 ```
 
 ## SwiftUI
 ```swift
+import UIGradients_Swift
 // Create a gradient with the colors from https://uigradients.com/#Magic
 Gradient(named: "Magic")
 
@@ -70,9 +70,10 @@ Gradient(named: "Magic")
 * bottomLeftToTopRight
 * bottomRightToTopLeft
 
-## Author 👑 and Acknowledgements 
+## Author 👑 and Acknowledgements
 
 Created by **Alex Sikand** [Find me on LinkedIn](https://www.linkedin.com/in/alexsikand/)
 
 Based on [UIGradient](https://github.com/dqhieu/UIGradient) by [@dqhieu](https://github.com/dqhieu)
+
 
