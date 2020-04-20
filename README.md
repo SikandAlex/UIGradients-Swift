@@ -1,5 +1,23 @@
-# UIGradients-Swift
-Create a gradient in Swift/SwiftUI just by referring to its UIGradients name!
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/Z1Du9t058rFe6tTZj7sQL7HBGEKHA2UNs1zZCLnUaWq18XmdLGY9qnnpfx0_CZJgKZXveC7YznIdgqdq66-WS7qVN8OlPPi9oLBZJ88UvogC6zq9LWzCfKI5y6jTrOZzoa9uZVXPyLE=w2400" width="240" />
+</p>
+
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/made%20with-love-E760A4.svg" alt="Made with love">
+  </a>
+  <a href="https://opensource.org/licenses/MIT" target="_blank">
+    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
+  </a>
+</p>
+
+<p align="center">
+Quickly create gradients in Swift and SwiftUI by specifying a direction and gradient name!
+</p>
+
+---
+
+&nbsp;
 
 ![](https://lh3.googleusercontent.com/N_0BrJuDJj5S-GNlP_ns6kD0PFdOkCe4Y-lJosy6xZYMaxhku7AKCfG6hpf-NVhEkwTTuy7Rl7N7gAOxVx-qt3GBYrAxi6V4sBwK-xCvgfckzR9FxRUOGZY9PlfHardIQiqkYWsAlWE=w2400)
 
