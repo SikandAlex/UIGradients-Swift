@@ -1,3 +1,5 @@
+import SwiftUI
+
 public extension Gradient {
 
     init?(named name: String) {
