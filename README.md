@@ -24,10 +24,6 @@ pod 'UIGradients-Swift'
 pod 'UIGradients-Swift', :git => 'https://github.com/SikandAlex/UIGradients-Swift.git', :branch => 'SwiftUI'
 ```
 
-## Manually 
-Download and drag **UIGradients.swift** into your Xcode project
-(Use SwiftUI branch for SwiftUI)
-
 # Usage
 Go to [uigradients.com](uigradients.com), find a gradient you love, and remember the name!
 
@@ -56,4 +52,7 @@ Gradient(named: "Magic")
 * bottomLeftToTopRight
 * bottomRightToTopLeft
 
+## 👑 Author
+Created by **Alex Sikand**
 
+[Find me on LinkedIn](https://www.linkedin.com/in/alexsikand/)
