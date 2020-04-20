@@ -19,6 +19,8 @@ Quickly create gradients in Swift and SwiftUI by specifying a direction and grad
 
 &nbsp;
 
+![](https://lh3.googleusercontent.com/ozKSOZoqgw0IJrd_pEExMW4Idq8TJYBqIn_wx27XN5Q2DNG2zjgGFVoX1OLA98hYxCoLi3tdL9fGwgXjrsnUuNbUDvE6Ct5tma18ajc6NYjkuC-0lBdBGHYkAdF15fWdY9p9_4OgS-E=w2400)
+
 ![](https://lh3.googleusercontent.com/N_0BrJuDJj5S-GNlP_ns6kD0PFdOkCe4Y-lJosy6xZYMaxhku7AKCfG6hpf-NVhEkwTTuy7Rl7N7gAOxVx-qt3GBYrAxi6V4sBwK-xCvgfckzR9FxRUOGZY9PlfHardIQiqkYWsAlWE=w2400)
 
 # Why use this library?
