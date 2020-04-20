@@ -1,3 +1,14 @@
+public extension Gradient {
+
+    init?(named name: String) {
+        guard let gradientColors = uigradients[name] else {
+          return nil
+        }
+        self.init(colors: gradientColors)
+    }
+
+}
+
 let uigradients = [
   "Grade Grey": [
     Color(red: 0.74, green: 0.76, blue: 0.78, alpha: 1.00),
