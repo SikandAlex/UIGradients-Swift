@@ -10,17 +10,23 @@ The great folks over at [UI Gradients](uigradients.com) have created some beauti
 2. Convert the hex codes into UIColor/Color objects
 3. Add those colors to an array and use it to create a gradient
 
-This library saves you time by declaring a dictionary for accessing the array of colors by name!
-```swift
-let uigradients : [String: [UIColor]] 
-let uigradients : [String: [Color]]
-```
+This library saves you time by allowing you to create these same gradients in Swift just by referring to their name on the site.
 
 # Installation 
+
 ## UIKit
-Download and drag **UIGradients.swift** into your Xcode project 
+```ruby
+pod 'UIGradients-Swift'
+```
+
 ## SwiftUI
-Download and drag **SwiftUIGradients.swift** into your Xcode project
+```ruby
+pod 'UIGradients-Swift', :git => 'https://github.com/SikandAlex/UIGradients-Swift.git', :branch => 'SwiftUI'
+```
+
+## Manually 
+Download and drag **UIGradients.swift** into your Xcode project
+(Use SwiftUI branch for SwiftUI)
 
 # Usage
 Go to [uigradients.com](uigradients.com), find a gradient you love, and remember the name!
@@ -34,7 +40,11 @@ self.view.layer.insertSublayer(gradientLayer, at: 0)
 ```
 ## SwiftUI
 ```swift
-.background(LinearGradient(gradient: Gradient(colors: uigradients["Purple Paradise"]), startPoint: .top, endPoint: .bottom))
+// Create a gradient with the colors from https://uigradients.com/#Magic
+Gradient(named: "Magic")
+
+// Create a linear gradient background with the colors from https://uigradients.com/#PurpleParadise
+.background(LinearGradient(gradient: Gradient(named: "Purple Paradise"), startPoint: .top, endPoint: .bottom))
 ```
 
 
