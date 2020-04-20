@@ -22,7 +22,7 @@ Quickly create gradients in Swift and SwiftUI by specifying a direction and grad
 ![](https://lh3.googleusercontent.com/N_0BrJuDJj5S-GNlP_ns6kD0PFdOkCe4Y-lJosy6xZYMaxhku7AKCfG6hpf-NVhEkwTTuy7Rl7N7gAOxVx-qt3GBYrAxi6V4sBwK-xCvgfckzR9FxRUOGZY9PlfHardIQiqkYWsAlWE=w2400)
 
 # Why use this library?
-The great folks over at [UI Gradients](uigradients.com) have created some beautiful gradients. The problem is that to implement these gradients in your iOS project you have to:
+The great people over at [UI Gradients](uigradients.com) have created some beautiful gradients. The problem is that to implement these gradients in your iOS project you have to:
 
 1. Copy the hex codes
 2. Convert the hex codes into UIColor/Color objects
@@ -70,7 +70,8 @@ Gradient(named: "Magic")
 * bottomLeftToTopRight
 * bottomRightToTopLeft
 
-## 👑 Author
-Created by **Alex Sikand**
+## Author 👑 and Acknowledgements 
 
-[Find me on LinkedIn](https://www.linkedin.com/in/alexsikand/)
+Created by **Alex Sikand** [Find me on LinkedIn](https://www.linkedin.com/in/alexsikand/)
+
+Based on [UIGradient](https://github.com/dqhieu/UIGradient) by [@dqhieu](https://github.com/dqhieu)
