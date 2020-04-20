@@ -33,11 +33,10 @@ Go to [uigradients.com](uigradients.com), find a gradient you love, and remember
 
 ## UIKit
 ```swift
-let gradientLayer = CAGradientLayer()
-gradientLayer.frame = self.view.bounds
-gradientLayer.colors = uigradients["Magic"]
-self.view.layer.insertSublayer(gradientLayer, at: 0)
+// Call addGradient on any UIView
+self.view.addGradient(direction: .topToBottom, named: "Sunset")
 ```
+
 ## SwiftUI
 ```swift
 // Create a gradient with the colors from https://uigradients.com/#Magic
@@ -46,5 +45,15 @@ Gradient(named: "Magic")
 // Create a linear gradient background with the colors from https://uigradients.com/#PurpleParadise
 .background(LinearGradient(gradient: Gradient(named: "Purple Paradise"), startPoint: .top, endPoint: .bottom))
 ```
+
+# Available Directions
+* topToBottom
+* bottomToTop
+* leftToRight
+* rightToLeft
+* topLeftToBottomRight
+* topRightToBottomLeft
+* bottomLeftToTopRight
+* bottomRightToTopLeft
 
 
