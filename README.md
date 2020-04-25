@@ -6,7 +6,7 @@
   <a href="#">
     <img src="https://img.shields.io/badge/made%20with-love-E760A4.svg" alt="Made with love">
   </a>
-  <a href="https://opensource.org/licenses/MIT" target="_blank">
+  <a href="https://opensource.org/licenses/GPL-3.0" target="_blank">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
   </a>
 </p>
