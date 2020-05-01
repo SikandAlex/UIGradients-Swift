@@ -74,6 +74,9 @@ Gradient(named: "Magic")
 * bottomLeftToTopRight
 * bottomRightToTopLeft
 
+# Python Script (used to scrape and convert the gradients from hex to UIColor/Color)
+https://gist.github.com/SikandAlex/72f4891c534f98cdebd947ecb45aa915
+
 ## Author and Acknowledgements 
 
 Created by **Alex Sikand** [Find me on LinkedIn](https://www.linkedin.com/in/alexsikand/)
